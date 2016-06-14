@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<title>Zappem</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	{% block css %}{% endblock %}
+</head>
+<body>
+
+	<div id="topbar">
+		<div class="container">
+			<div class="logo">
+				<img src="/zappem.svg">
+			</div>
+			<nav>
+				<li>Projects</li>
+			</nav>
+			<div class="search">
+				<input type="text" placeholder="Search...">
+			</div>
+		</div>
+	</div>
+
+	<div id="content">
+		<div class="container">
+			{% block content %}
+			{% endblock %}
+		</div>
+	</div>
+
+</body>
+</html>

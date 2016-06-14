@@ -1,0 +1,23 @@
+{
+  "name": "zappem-dev",
+  "version": "0.0.1",
+  "description": "Development version of Zappem",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "zappem"
+  ],
+  "author": "Dan Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "camo": "^0.12.1",
+    "express": "^4.13.4",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  }
+}
