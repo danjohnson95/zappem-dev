@@ -1,4 +1,6 @@
-$background-color: #252830;
+@import "foundation";
+
+
 
 body{
 	font-family: 'Roboto', sans-serif;
@@ -36,12 +38,18 @@ body{
 	}
 	.search{
 		float: right;
+        i{
+          position: absolute;
+          top: .9em;
+          margin-left: .8em;
+        }
 		input{
 			margin: 0;
 			border: 0;
-			padding: 0 1em;
+			padding: 0 1em 0 2.5em;
 			font-size: 1em;
-			height: 48px;
+			height: 52px;
+            border-radius: 0;
 			background-color: rgba(255,255,255,0.1);
 			outline: 0;
 			color: #fff;

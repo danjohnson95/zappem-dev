@@ -1,11 +1,55 @@
 .login-welcome{
-	width:50%;
-	float: left;
-	vertical-align: top;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    max-width: initial;
+    left: 0;
+
+    & > .column{
+      width: 90%;
+      max-width: 750px;
+    }
+
+	h1{
+		font-weight: 100;
+		font-size: 4em;
+        margin-bottom: .5em;
+	}
 }
 
 .login-box{
 	width: 50%;
 	float: left;
 	vertical-align: top;
+
+    label{
+      margin-bottom: 1em;
+      display: block;
+      input{
+        display: block;
+        background-color: rgba(255,255,255,0.1);
+        border: 0;
+        margin: 0;
+        font-size: 1em;
+        color: #fff;
+        padding: 1em;
+        border-radius: 3px;
+        margin-top: .5em;
+        width: 300px;
+      }
+    }
+}
+
+.login-footer{
+  position:absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.version-number{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }

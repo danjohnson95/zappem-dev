@@ -5,23 +5,65 @@
 {% endblock %}
 
 {% block content %}
-	<div class="login-welcome">
-		<h1>Welcome to Zappem.</h1>
-		<p>
+	<div class="login-welcome row align-middle align-center">
+        <div class="column">
+            <h1 class="text-center">Welcome to Zappem</h1>
+
+            <div class="row align-center">
+                <div class="column small-12 medium-4">
+                    <button class="button primary expanded">Create Account</button>
+                </div>
+                <div class="column small-12 medium-4">
+                    <button class="button hollow primary expanded">Log In <i class="fa fa-caret-right"></i></button>
+                </div>
+            </div>
+        </div>
+		{# <p>
 			Track your application's bugs effortlessly without extortionate monthly fees.
 		</p>
 
-		<ol>
-			<li>Create a Zappem account</li>
-			<li>Link your application to Zappem using our connector library</li>
-			<li>Sit back and relax.</li>
-		</ol>
+
+		<ul>
+			<li>
+                <i class="lnr lnr-database"></i>
+                <p>
+                    Store your exceptions on your own server, so you can store as much as you want.<br>
+                    No more retention limits and expensive storage fees.
+                </p>
+            </li>
+		</ul> #}
 
 	</div>
 
-	<div class="login-box">
-		<div class="hr-row">
-			<h3>Log In</h3>
-		</div>
-	</div>
+	{# <div class="login-box">
+		<form>
+            <label>
+                First Name
+                <input type="text">
+            </label>
+            <label>
+                Last Name
+                <input type="text">
+            </label>
+            <label>
+                Email
+                <input type="email">
+            </label>
+            <label>
+                Password
+                <input type="password">
+            </label>
+            <label>
+                Confirm Password
+                <input type="password">
+            </label>
+        </form>
+	</div> #}
+
+    <div class="version-number">
+        <i class="fa fa-spin fa-spinner"></i>
+    </div>
+    <div class="login-footer">
+        <a href="#">About</a> &middot; <a href="#">Docs</a>
+    </div>
 {% endblock %}

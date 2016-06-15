@@ -16,8 +16,15 @@
     "express": "^4.13.4",
     "swig": "^1.4.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danjohnson95/zappem-dev.git"
+  },
   "devDependencies": {
+    "browserify": "^13.0.1",
+    "foundation-sites": "^6.2.3",
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.1"
+    "gulp-sass": "^2.3.1",
+    "vinyl-transform": "^1.0.0"
   }
 }
